@@ -1,0 +1,128 @@
+/*# sourceMappingURL=Navbar.css.map */
+:root {
+    --primaryColor: #7a63f1;
+    --SecondaryColor: #ebe8fc;
+    --textColor: #a3a3a3;
+    --greyColor: #f4f4f4;
+    --whitecolor: #f5f4fa;
+    --blackColor: #434344;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 4px 6px rgb(237, 237, 237);
+    z-index: 1000;
+   
+
+}
+
+.logoDiv    .logo{
+        width: 100px;
+    }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        position: absolute;
+        background: var(--SecondaryColor);
+        width: 80%;
+        top: -100rem;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        border-radius: 10px;
+        text-align: center;
+        padding: 2rem;
+        transition: .3s ease;
+        z-index: 2000;
+
+
+        
+    }
+    .navbar .icon-closeIcon{
+        position: absolute;
+        bottom: -15px;
+     
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        background: var(--SecondaryColor);
+        color: var(--primaryColor);
+        padding: 3px;
+        border-radius: 50%;
+        font-size: 35px;
+
+}
+.icon-closeIcon :hover{
+color: red;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.menu .listItem{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu .listItem a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(11, 84, 60);
+}
+.menu .listItem a :hover{
+    color: var(--whitecolor);
+   
+
+
+
+
+}
+
+.signUp .text :hover{
+    background: var(--SecondaryColor);
+    color: var(--blackColor);
+}
+.signUp .icon-toggleNavbarIcon{
+    background: none;
+    color:var(--primaryColor);
+    font-weight: 600;
+    font-size: 25px;
+}
+.signUp .icon-toggleNavbarIcon :hover{
+    color: var(--blackColor);
+    background: var(--blackColor);
+}
+
+
+.showNavbar {
+    top:8rem;
+    transition: .5s ease;
+}
+}
+.signUp {
+    gap: .5rem;
+}
+.signUp .text{
+    padding: 3px 10px;
+    background: var(--primaryColor);
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+.addBg{
+    background: var(--SecondaryColor);
+    box-shadow: none;
+}
+

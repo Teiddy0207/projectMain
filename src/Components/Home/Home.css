@@ -1,0 +1,61 @@
+/*# sourceMappingURL=Home.css.map */
+:root {
+    --primaryColor: #7a63f1;
+    --SecondaryColor: #ebe8fc;
+    --textColor: #a3a3a3;
+    --greyColor: #f4f4f4;
+    --whitecolor: #f5f4fa;
+    --blackColor: #434344;
+}
+
+
+
+.home{
+    padding-top: 13rem;
+}
+
+.secContainer{
+    padding: 0 1.5rem;
+    text-align: center;
+    display: grid;
+    gap: 2rem;
+}
+
+.home .secContainer .hometext .homeSpan{
+font-size: 15px;
+color: 
+var(--textColor);
+font-weight: 400;
+}
+
+.home .secContainer .hometext .homeTitle{
+    color: var(--blackColor);
+    font-weight: 700;
+    font-size: 30px;
+}
+.btn-flex .btn-primaryBtn {
+    background: var(--primaryColor);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: var(--blackColor);
+    font-size: 12px;
+  
+    
+  }
+  .btn-flex .btn {
+    background: var(--greyColor);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: var(--blackColor);
+    font-size: 12px;
+  
+    
+  }
+.btn-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+

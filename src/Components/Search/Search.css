@@ -1,0 +1,52 @@
+/*# sourceMappingURL=Search.css.map */
+:root {
+    --primaryColor: #7a63f1;
+    --SecondaryColor: #ebe8fc;
+    --textColor: #a3a3a3;
+    --greyColor: #f4f4f4;
+    --whitecolor: #f5f4fa;
+    --blackColor: #434344;
+}
+
+.search {
+    padding: 2rem 0;
+    
+}
+
+.search .title {
+    color: var(--blackColor);
+    font-size: 22px;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.7rem;
+}
+.search .searchDiv{
+    gap: .5rem;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.search .searchDiv input {
+    border-radius: 10px;
+    border: 1px solid var(--SecondaryColor);
+    padding: 5px 10px;
+    outline: none;
+    width: 100%;
+ 
+    
+}
+.search .searchDiv input:hover{
+    border: none;
+    border: 3px solid var(--SecondaryColor);
+    padding:10px ;
+}
+.search .searchDiv .btn{
+    justify-content: center;
+    width: 100%;
+    align-self: center;
+    gap: .3rem;
+}
+.search .searchDiv .btn .icon{
+    font-size: 25px;
+}

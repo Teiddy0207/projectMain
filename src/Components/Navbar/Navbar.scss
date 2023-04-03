@@ -1,0 +1,43 @@
+:root {
+    --primaryColor: #7a63f1;
+    --SecondaryColor: #ebe8fc;
+    --textColor: #a3a3a3;
+    --greyColor: #f4f4f4;
+    --whitecolor: #f5f4fa;
+    --blackColor: #434344;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 4px 6px rgb(237, 237,237) ;
+    z-index: 1000;
+}
+
+
+
+@media  screen and ( max-width: 768px) {
+.navbar{
+    position:absolute;
+    background: var(--SecondaryColor);
+    width: 80%;
+    top: 7rem;
+    right: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem;
+    transition: .3s ease;
+
+}
+}
+    
+.signUp.text{
+        padding: 3px 10px;
+        background: var(--primaryColor);
+        border-radius: 3px;
+    }

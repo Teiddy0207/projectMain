@@ -1,0 +1,113 @@
+
+/*# sourceMappingURL=Aution.css.map */
+:root {
+  --primaryColor: #7a63f1;
+  --SecondaryColor: #ebe8fc;
+  --textColor: #a3a3a3;
+  --greyColor: #f4f4f4;
+  --whitecolor: #f5f4fa;
+  --blackColor: #434344;
+}
+
+.aution .secContainer .secHeading{
+justify-content: space-between;
+padding:  1rem 0;
+}
+
+.aution .secContainer .secHeading .navBtns{
+  gap: .5rem;
+
+}
+.aution .secContainer .secHeading .navBtns .icon{
+  padding: 3px 5px;
+  background: var(--SecondaryColor);
+  border-radius: 3px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.aution .secContainer .secHeading .navBtns .icon:hover{
+  background: var(--primaryColor);
+  color: var(--whitecolor);
+}
+
+.aution .secContainer  .carContainer{
+  gap: 2rem;
+
+}
+.aution .secContainer  .carContainer .singleCar{
+  transition: .3s ease-in-out;
+  text-align: left;
+  padding: 1rem;
+  border-radius: 10px;
+
+}
+.aution .secContainer  .carContainer .singleCar .imgDiv{
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 4px solid transparent;
+}
+
+.aution .secContainer  .carContainer .singleCar .imgDiv img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.aution .secContainer  .carContainer .singleCar .carTitle{
+  color: var(--blackColor);
+  font-size: 15px;
+  padding-top: 10px;
+}
+.aution .secContainer  .carContainer .singleCar .miles{
+  color: var(--blackColor);
+  opacity: .7;
+  font-size: 14px;
+}
+.aution .secContainer  .carContainer .singleCar .AWD {
+  padding: 1rem 0;
+  color: var(--blackColor);
+  font-weight: 600;
+  font-size:15px ;
+}
+
+.aution .secContainer  .carContainer .singleCar .price_buyBtn{
+  gap: 1rem;
+}
+.aution .secContainer  .carContainer .singleCar .price_buyBtn span{
+  cursor: pointer;
+  padding: .5rem 1rem;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.aution .secContainer  .carContainer .singleCar .price_buyBtn .price{
+  background: var(--SecondaryColor);
+  color: var(--primaryColor);
+}
+.aution .secContainer  .carContainer .singleCar .price_buyBtn .buyBtn{
+  background: var(--greyColor);
+  color: var(--textColor);
+}
+.price_buyBtn .buyBtn :hover{
+  background: var(--SecondaryColor);
+  color: var(--textColor);
+}
+
+.aution .secContainer  .carContainer .singleCar:hover{
+  transform: translateY(-7px);
+  padding: 1rem ;
+  background: var(--SecondaryColor);
+}
+.aution .secContainer  .carContainer .singleCar:hover .price_buyBtn span{
+border: 1px solid var(--primaryColor);
+}
+
+.aution .secContainer  .carContainer .singleCarAvtive{
+  padding: 1rem;
+  background: var(--SecondaryColor);
+
+}
+.aution .secContainer  .carContainer .singleCarAvtive .price_buyBtn span{ 
+border: 1px solid var(--primaryColor);
+}
